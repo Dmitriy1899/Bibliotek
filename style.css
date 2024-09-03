@@ -1,0 +1,163 @@
+body{
+    width: auto;
+    margin: 0rem;
+    background-color: rgb(222, 232, 241);
+}
+header{
+    display: flex;
+    background-color: rgba(12, 72, 129, 0.829);
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.b1m{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.bk{
+    display: flex;
+    gap: 1rem;
+    width: 50rem;
+    padding: 0.5rem;
+    margin: auto;
+    margin-right:1rem;
+    background-color: rgb(252, 254, 255);
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px rgb(134, 134, 134);
+    align-items: center;
+}
+.bk1{
+    width: 31rem;
+}
+.obl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    background-color: rgb(180, 180, 180);
+    height: 11rem;
+    width: 8rem;
+}
+
+ul, h1{
+    list-style: none;
+    display: flex; 
+    gap: 0.2rem;
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+ h1{
+    padding-left: 0.5rem;
+}
+button{
+    height: 2.5rem;
+    background: none;
+    border: none;
+    border-radius: 0.3rem;
+    color: white;
+}
+#h1b2, #h1b3{
+    display: flex;
+    align-items: center;
+    color: black;
+}
+.bk2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+}
+button:hover{
+    background-color: rgba(122, 122, 122, 0.829);
+}
+#h1b1{
+    width: 2.5rem;
+}
+.log1 {
+    align-content: center;
+    color: white;
+    border: 0.1rem solid white;
+    height: 3rem;
+
+}
+.h1, #h1b0{
+    margin-left: auto;
+    align-content: center;
+}
+
+.b1m{
+    width: 60rem;
+    background: none;
+}
+.im{
+    width: 8rem;
+    height: 11rem;
+    background-color: gainsboro;
+    border-radius: 0.3rem;   
+}
+main{
+    margin: auto;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+}
+.form{
+    height: 24rem;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    background-color: rgb(247, 251, 252);
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(134, 134, 134);
+}
+.form2, .form3, .form4, .form5, .form6, .form7, #b1f2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0px;
+}
+.formb{
+    display: flex;
+    justify-content: end;
+    gap: 0.3rem;
+    margin-right: 0.3rem;
+}
+#formbut, #formbut2{
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    color: black;
+    margin-top: 0.5rem;
+    
+}
+
+footer{
+    padding: 0.7rem;
+    margin: auto;
+    background-color: rgba(245, 245, 245, 0.651);
+}
+.f1{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+#f1p1{
+    padding-top: 0.7rem;
+}
+a{
+    text-decoration-line: none;
+    color: black;
+}
+.f3{
+    padding-top: 1rem;
+}
+.f4{
+    padding-top: 0.2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}

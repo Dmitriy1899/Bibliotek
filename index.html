@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteka</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Script.js" defer></script>
+</head>
+<body>
+    <header>
+        <img class="log1" src="" alt="Logo">
+        <h1>
+            LIBRARY
+        </h1>
+        <ul>
+            <li><button>Жанры</button></li>
+            <li><button>Обсуждение</button></li>
+            <li><button>Моя библиотека</button></li>
+        </ul>
+        <div class="h1">
+            <button id="h1" onclick="delall()">Удалить все книги</button>
+            <button id="h1b1" onclick="location.reload()"><img src="" alt=""></button>
+            <button onclick="fil()">Фильтр</button>
+        </div>
+    </header>
+    <main>
+        <section class="form0">
+            <div class="b1m"></div>
+        </section>
+        
+        <section class="form">
+            <h2 id="b1f2">Добавление книги</h2>
+            <div class="form2">
+                <label for="name">Название</label>
+                <input id="ff2b1" type="text">
+            </div>
+            <div class="form3">
+                <label for="author">Автор</label>
+                <input id="ff3b1" type="text">
+            </div>
+            <div class="form4">
+                <label for="ganre">Жанр</label>
+                <input id="ff4b1" type="text">
+            </div>
+            <div class="form5">
+                <label for="year">Год</label>
+                <input id="ff5b1" type="text">
+            </div>
+            <div class="form6">
+                <label for="status">Статус произведения</label>
+                <input id="ff6b1" type="text">
+            </div>
+            <div class="form7">
+                <label for="pic">Вставить изобрражение</label>
+                <input id="ff7b1" type="file">
+            </div>
+            <div class="formb">
+                <button onclick="dbook()" id="formbut2" >Удалить книгу</button>
+                <button onclick="book()" id="formbut">Сохранить книгу</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="f1">
+            <a href="http://">Информация</a>
+            <a href="http://">Читателям</a>
+            <a href="http://">Справочная информация</a>
+            <a href="http://">Правила сайта</a>
+            <a href="http://">Обратная связь</a>
+            <a href="http://">Соглашение о конфеденциальности</a>
+        </div>
+        <p id="f1p1"><b>Подписаться</b></p>
+        <div class="f2">
+            <img src="" alt="VK">
+            <img src="" alt="Telegramm">
+            <img src="" alt="Dzen">
+        </div>
+        <div class="f3">
+            <a href="http://"><img src="" alt="GooglePlay"></a>
+        </div>
+        <div class="f4">
+            <img src="" alt="18+">
+            <p>Сайт может содержать материалы не предназначенные к просмотру лицам не достигшим 18 лет</p>
+        </div>
+    </footer>
+</body>
+</html>
